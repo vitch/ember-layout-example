@@ -19,7 +19,7 @@ for(var i = 1; i <= 10; i++) {
   App.items.pushObject(Em.Object.create({
     id: i,
     title: 'Item ' + i,
-    url: "#route-parameters/" + i
+    url: "#!route-parameters/" + i
   }));
 }
 
